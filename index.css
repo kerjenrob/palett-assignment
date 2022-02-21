@@ -1,0 +1,33 @@
+body{
+    /*display: flex;
+    justify-content: center
+    fles-direction:column;*/
+    background-color: #E5E5E5;
+}
+main {
+
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(7 1fr);
+    grid-template-rows: repeat(5 122px);
+    grid-gap: 24px;
+    width: 1440px;
+    height: 900px;
+    background-color: white;
+    padding: 24px;
+    }
+.grid-element-first {
+    
+}
+.grid-element-second
+.grid-element-third
+.grid-element-fourth
+.grid-element-fifth
+.grid-element-sixth
+.grid-element-seventh
+.grid-element-eight
+.grid-element-ninth
+.grid-element-tenth
+.grid-element-eleventh
+.grid-element-twelfth
