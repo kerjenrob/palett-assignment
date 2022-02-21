@@ -2,7 +2,7 @@ body{
     /*display: flex;
     justify-content: center
     fles-direction:column;*/
-    background-color: #E5E5E5;
+    background-color: grey;
 }
 main {
 
@@ -14,20 +14,58 @@ main {
     grid-gap: 24px;
     width: 1440px;
     height: 900px;
-    background-color: white;
+    background-color: blue;
     padding: 24px;
-    }
-.grid-element-first {
-    
 }
-.grid-element-second
-.grid-element-third
-.grid-element-fourth
-.grid-element-fifth
-.grid-element-sixth
-.grid-element-seventh
-.grid-element-eight
-.grid-element-ninth
-.grid-element-tenth
-.grid-element-eleventh
-.grid-element-twelfth
+.grid-element-first {
+    grid-area: 1/1/1.5/4; /*ange i pixlar eller procent*/
+    background-color: green;
+}
+.grid-element-second{
+    grid-area: 2/1/3/4 ; /*ange i pixlar eller procent*/
+    background-color: darkgreen;
+}
+.grid-element-third{
+    grid-area: 1/3/4/5;
+    background-color: lightgreen;
+}
+.grid-element-fourth{
+    grid-area: 1/5/2/7;
+    background-color: greenyellow;
+}
+.grid-element-fifth{
+    grid-area: 2/5/3/7;
+    background-color: yellow;
+}
+.grid-element-sixth{
+    grid-area: 3/5/4/7;
+    background-color: lightyellow;
+}
+.grid-element-seventh{
+    grid-area: 4/1/6/3;
+    background-color: lightgreen;
+}
+.grid-element-eight{
+    grid-area: 4/3/5/4;
+    background-color: yellowgreen;
+}
+.grid-element-ninth{
+    grid-area: 5/3/6/4;
+    background-color: greenyellow;
+}
+.grid-element-tenth{
+    grid-area: 4/4/6/6;
+    background-color: limegreen;
+}
+.grid-element-eleventh{
+    grid-area: 4/6/6/7;
+    background-color: darkgreen;
+}
+.grid-element-twelfth{
+    grid-area: 6/1/7/7 ;
+    background-color: lightskyblue;
+}
+h1 {
+    font-size: 64px;
+    font-style: oblique;
+}
