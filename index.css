@@ -1,11 +1,5 @@
 body{
-    /*display: flex;
-    justify-content: center
-    fles-direction:column;*/
     background-color: grey;
-}
-main {
-
 }
 .grid-container {
     display: grid;
@@ -16,6 +10,10 @@ main {
     height: 900px;
     background-color: blue;
     padding: 24px;
+}
+.grid-element {
+    overflow: hidden;
+    position: relative;
 }
 .grid-element-first {
     grid-area: 1/1/1.5/4; /*ange i pixlar eller procent*/
@@ -68,4 +66,5 @@ main {
 h1 {
     font-size: 64px;
     font-style: oblique;
+    color: red;
 }
